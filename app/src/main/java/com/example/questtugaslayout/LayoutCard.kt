@@ -54,6 +54,20 @@ fun LayoutCard(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
 
+        Spacer(modifier = Modifier.height(25.dp))
+
+        // Card 1 - Kim Taehyung
+        ItemCard(
+            warnaCard = R.color.card_1_bg,
+            gambar = R.drawable.taehyung,
+            nama = stringResource(id = R.string.nama_1),
+            alamat = stringResource(id = R.string.alamat_1),
+            warnaNama = R.color.text_nama_1,
+            warnaAlamat = R.color.text_alamat_1
+        )
+
+
+
 
 
     }
