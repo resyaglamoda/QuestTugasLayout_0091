@@ -31,3 +31,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questtugaslayout.ui.theme.QuestTugasLayoutTheme
 
+// FUNGSI UTAMA
+@Composable
+fun LayoutCard(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
