@@ -153,6 +153,22 @@ fun ItemCard(
                     .padding(horizontal = 12.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
+                Text(
+                    text = nama,
+                    fontSize = 22.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = colorResource(id = warnaNama),
+                    textAlign = TextAlign.Center
+                )
+                Text(
+                    text = alamat,
+                    fontSize = 14.sp,
+                    color = colorResource(id = warnaAlamat),
+                    textAlign = TextAlign.Center
+                )
+            }
+
+
 
 
 
