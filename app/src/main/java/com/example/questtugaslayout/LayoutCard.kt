@@ -113,6 +113,18 @@ fun LayoutCard(modifier: Modifier = Modifier) {
     }
 }
 
+// FUNGSI CARD REUSABLE
+@Composable
+fun ItemCard(
+    warnaCard: Int,
+    gambar: Int,
+    nama: String,
+    alamat: String,
+    warnaNama: Int,
+    warnaAlamat: Int
+) {
+
+
 
 
 
