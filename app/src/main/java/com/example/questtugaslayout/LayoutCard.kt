@@ -66,6 +66,22 @@ fun LayoutCard(modifier: Modifier = Modifier) {
             warnaAlamat = R.color.text_alamat_1
         )
 
+        Spacer(modifier = Modifier.height(12.dp))
+
+        // Card 2 - Jeon Jungkook
+        ItemCard(
+            warnaCard = R.color.card_2_bg,
+            gambar = R.drawable.jungkook,
+            nama = stringResource(id = R.string.nama_2),
+            alamat = stringResource(id = R.string.alamat_2),
+            warnaNama = R.color.text_nama_2,
+            warnaAlamat = R.color.text_alamat_2
+        )
+
+
+
+
+
 
 
 
