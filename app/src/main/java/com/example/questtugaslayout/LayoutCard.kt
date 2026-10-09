@@ -48,6 +48,13 @@ fun LayoutCard(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
 
+        Text(
+            text = stringResource(id = R.string.univ),
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+
 
     }
 
