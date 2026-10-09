@@ -168,6 +168,18 @@ fun ItemCard(
                 )
             }
 
+            Image(
+                painter = painterResource(id = gambar),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(80.dp)
+                    .clip(CircleShape)
+            )
+        }
+    }
+}
+
+
 
 
 
