@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Warna Card -->
+    <color name="card_1_bg">#FF6E6E6E</color>
+    <color name="card_2_bg">#FF9C6ADE</color>
+    <color name="card_3_bg">#FF0D47FF</color>
+    <color name="card_4_bg">#FF1B5E20</color>
+
+    <!-- Warna Teks Nama -->
+    <color name="text_nama_1">#FFFFFFFF</color>
+    <color name="text_nama_2">#FFFFFFFF</color>
+    <color name="text_nama_3">#FFFFFFFF</color>
+    <color name="text_nama_4">#FFFFFFFF</color>
+
+    <!-- Warna Teks Alamat -->
+    <color name="text_alamat_1">#FFFFEB3B</color>
+    <color name="text_alamat_2">#FFFFEB3B</color>
+    <color name="text_alamat_3">#FF00E5FF</color>
+    <color name="text_alamat_4">#FF00E5FF</color>
+</resources>

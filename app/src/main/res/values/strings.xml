@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">QuestTugasLayout</string>
+
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+
+    <!-- Card 1 - Kim Taehyung -->
+    <string name="nama_1">Kim Taehyung</string>
+    <string name="alamat_1">Daegu, Korea Selatan</string>
+
+    <!-- Card 2 - Jeon Jungkook -->
+    <string name="nama_2">Jeon Jungkook</string>
+    <string name="alamat_2">Busan, Korea Selatan</string>
+
+    <!-- Card 3 - Park Jimin -->
+    <string name="nama_3">Park Jimin</string>
+    <string name="alamat_3">Busan, Korea Selatan</string>
+
+    <!-- Card 4 - Kim Seokjin -->
+    <string name="nama_4">Kim Seokjin</string>
+    <string name="alamat_4">Gwacheon, Korea Selatan</string>
+
+    <string name="copyright">Copyright, 2026</string>
+</resources>
