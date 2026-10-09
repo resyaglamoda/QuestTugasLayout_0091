@@ -40,4 +40,14 @@ fun LayoutCard(modifier: Modifier = Modifier) {
             .padding(16.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Text(
+            text = stringResource(id = R.string.prodi),
+            fontSize = 32.sp,
+            fontWeight = FontWeight.Bold
+        )
+
+
+    }
 
