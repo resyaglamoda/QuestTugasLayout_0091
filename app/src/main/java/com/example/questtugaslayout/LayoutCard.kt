@@ -102,15 +102,26 @@ fun LayoutCard(modifier: Modifier = Modifier) {
             warnaAlamat = R.color.text_alamat_4
         )
 
+        Spacer(modifier = Modifier.height(50.dp))
 
-
-
-
-
-
-
-
-
-
+        Text(
+            text = stringResource(id = R.string.copyright),
+            fontSize = 14.sp,
+            modifier = Modifier.fillMaxWidth(),
+            textAlign = TextAlign.Center
+        )
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
