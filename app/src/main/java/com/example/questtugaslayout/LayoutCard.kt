@@ -36,3 +36,8 @@ import com.example.questtugaslayout.ui.theme.QuestTugasLayoutTheme
 fun LayoutCard(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
+            .verticalScroll(rememberScrollState())
+            .padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
