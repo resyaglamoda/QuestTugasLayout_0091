@@ -132,6 +132,13 @@ fun ItemCard(
             containerColor = colorResource(id = warnaCard)
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
 
 
 
