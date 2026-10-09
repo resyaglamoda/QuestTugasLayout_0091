@@ -123,6 +123,15 @@ fun ItemCard(
     warnaNama: Int,
     warnaAlamat: Int
 ) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(130.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource(id = warnaCard)
+        )
+    ) {
 
 
 
