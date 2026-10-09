@@ -179,6 +179,15 @@ fun ItemCard(
     }
 }
 
+// PREVIEW
+@Preview(showBackground = true)
+@Composable
+fun PreviewLayoutCard() {
+    QuestTugasLayoutTheme {
+        LayoutCard()
+    }
+}
+
 
 
 
