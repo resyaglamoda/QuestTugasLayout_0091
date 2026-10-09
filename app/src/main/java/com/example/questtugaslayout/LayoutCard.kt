@@ -147,8 +147,14 @@ fun ItemCard(
                     .clip(CircleShape)
             )
 
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 12.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
 
-        }
+
 
 
 
